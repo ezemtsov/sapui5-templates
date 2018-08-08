@@ -1,1 +1,0 @@
-sap.ui.define(["../MicroChart.controller"],function(M){"use strict";var S=M.extend("sap.fe.controls._MicroChart.stackedBarMicroChart.StackedBarMicroChart.controller",{constructor:function(m){M.apply(this,arguments);this.oMicroChart=m;}});return S;});

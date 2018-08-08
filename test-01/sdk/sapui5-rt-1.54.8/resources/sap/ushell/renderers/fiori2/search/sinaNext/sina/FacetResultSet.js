@@ -1,1 +1,0 @@
-sinaDefine(['../core/core','./ResultSet'],function(c,R){return R.derive({toString:function(){result=[];result.push('--Facet');result.push(R.prototype.toString.apply(this,arguments));return result.join('\n');}});});
