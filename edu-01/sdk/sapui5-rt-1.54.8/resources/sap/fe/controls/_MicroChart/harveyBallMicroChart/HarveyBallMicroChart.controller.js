@@ -1,1 +1,0 @@
-sap.ui.define(["../MicroChart.controller"],function(M){"use strict";var H=M.extend("sap.fe.controls._MicroChart.harveyBallMicroChart.HarveyBallMicroChart.controller",{constructor:function(m){M.apply(this,arguments);this.oMicroChart=m;}});return H;});

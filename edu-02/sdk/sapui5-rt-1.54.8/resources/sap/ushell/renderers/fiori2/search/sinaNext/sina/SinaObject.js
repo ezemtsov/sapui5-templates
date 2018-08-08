@@ -1,1 +1,0 @@
-sinaDefine(['../core/core'],function(c){return c.defineClass({_meta:{properties:{sina:{required:false,getter:true,}}},_initClone:function(o){this.sina=o.sina;},_equals:function(o){return this.sina===o.sina;}});});
