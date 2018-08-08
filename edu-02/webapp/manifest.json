@@ -1,0 +1,43 @@
+{
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "edu-02.view.Main",
+            "type": "XML"
+        },
+        "routing": {
+            "config": {
+                "routerClass": "sap.m.routing.Router",
+                "viewType": "XML",
+                "viewPath": "edu-02.view",
+                "controlId": "main",
+                "controlAggregation": "pages",
+                "transition": "show",
+                "async": true
+            },
+            "routes": [
+                {
+                    "pattern" : "",
+                    "name": "appMain",
+                    "target": "main"
+                },
+                {
+                    "pattern" : "secondary/{input}",
+                    "name": "appSecondary",
+                    "target": "secondary"
+                }
+            ],
+            "targets": {
+                "main": {
+                    "viewId": "main",
+                    "viewName": "Main",
+                    "viewLevel": 1
+                },
+                "secondary": {
+                    "viewId": "secondary",
+                    "viewName": "Secondary",
+                    "viewLevel": 2
+                }
+            }
+        }
+    }
+}

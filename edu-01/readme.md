@@ -1,0 +1,1 @@
+Example of EventBus in SAPUI5

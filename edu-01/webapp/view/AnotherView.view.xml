@@ -1,0 +1,16 @@
+<mvc:View
+    controllerName="edu-01.controller.AnotherView"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+  <Panel width="auto" class="sapUiResponsiveMargin" accessibleRole="Region">
+    <headerToolbar>
+      <Toolbar height="3rem">
+        <Title text="Another view"/>
+      </Toolbar>
+    </headerToolbar>
+    <content>
+      <Text id="AnotherText"
+            text="Hi I'm another view. Your text will appear here"/>
+    </content>
+  </Panel>
+</mvc:View>

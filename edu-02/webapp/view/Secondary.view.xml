@@ -1,0 +1,37 @@
+<mvc:View
+    controllerName="edu-02.controller.Secondary"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+  <App id="secondary"
+       class="mySecondaryPage">
+		<pages>
+      <Page title="Secondary view"
+            class="sapUiContentPadding"
+            showNavButton="true"
+		        navButtonPress="onNavBack">
+        <Panel width="auto" class="sapUiResponsiveMargin" accessibleRole="Region">
+          <headerToolbar>
+            <Toolbar height="3rem">
+              <Title text="Transfered by using url parameters in NavTo"/>
+            </Toolbar>
+          </headerToolbar>
+          <content>
+            <Text id="textArea"
+                  text="Tada"/>
+          </content>
+        </Panel>
+        <Panel width="auto" class="sapUiResponsiveMargin" accessibleRole="Region">
+          <headerToolbar>
+            <Toolbar height="3rem">
+              <Title text="Transfered by using global variable in Base controller"/>
+            </Toolbar>
+          </headerToolbar>
+          <content>
+            <Text id="anotherTextArea"
+                  text="Tada"/>
+          </content>
+        </Panel>
+      </Page>
+  	</pages>
+	</App>
+</mvc:View>

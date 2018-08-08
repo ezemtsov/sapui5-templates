@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="edu-02.controller.Main"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+  <App id="main"
+       class="myMainPage">
+		<pages>
+      <Page title="Main view"
+            class="sapUiContentPadding">
+        <content>
+          <Button
+              text="Send"
+              press="onMainButtonPressed"/>
+          <Input
+              id="myInputArea"
+              value="Yo, buddies!"
+              valueLiveUpdate="true"
+              width="40%"/>
+        </content>
+      </Page>
+  	</pages>
+	</App>
+</mvc:View>
